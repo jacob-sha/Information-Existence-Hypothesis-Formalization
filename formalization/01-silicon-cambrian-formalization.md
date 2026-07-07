@@ -1,36 +1,52 @@
 # AI-Assisted Mathematical Formalization of the Silicon Cambrian Hypothesis
 
-**Based on the Information Existence Hypothesis (IEH)**  
-**Version:** v0.1  
+## Based on the Information Existence Hypothesis (IEH)
+
+**Version:** v0.3  
 **Status:** Exploratory formalization draft  
 **Author:** Jacob Sha  
-**Method:** AI-assisted, author-reviewed mathematical modeling note
+**Method:** AI-assisted, author-reviewed mathematical modeling note  
+
 ---
 
 ## Author and Methodological Disclaimer
 
-This document is part of an **AI-assisted mathematical and theoretical modeling project**.
+This document is part of an AI-assisted mathematical and theoretical modeling project.
 
-The author, **Jacob Sha**, is **not a professional mathematician, theoretical physicist, or academic theorist**. This document was developed with the assistance of artificial intelligence tools and then reviewed, directed, and revised by the author.
+The author, Jacob Sha, is not a professional mathematician, theoretical physicist, or academic theorist. This document was developed with the assistance of artificial intelligence tools and then reviewed, directed, and revised by the author.
 
-It should therefore be read as an **exploratory formalization draft**, not as a final mathematical proof, peer-reviewed physics paper, or authoritative scientific conclusion.
+It should therefore be read as an exploratory formalization draft, not as a final mathematical proof, peer-reviewed physics paper, or authoritative scientific conclusion.
 
 The purpose of this document is to test whether the Silicon Cambrian hypothesis can be expressed through thermodynamic, informational, and complex-systems models, while making its assumptions, limitations, boundary conditions, and possible failure conditions explicit.
 
-中文说明：
+**中文说明：**
 
-本文属于一个 **利用人工智能辅助进行数学与理论建模的探索性项目**。
+本文属于一个利用人工智能辅助进行数学与理论建模的探索性项目。
 
-作者 **Jacob Sha** 并非职业数学家、理论物理学家或学院派理论研究者。本文是在人工智能工具辅助下，由作者提出方向、审查并修订后形成的形式化草案。
+作者 Jacob Sha 并非职业数学家、理论物理学家或学院派理论研究者。本文是在人工智能工具辅助下，由作者提出方向、审查并修订后形成的形式化草案。
 
 因此，本文不应被理解为最终数学证明、同行评审物理论文或权威科学结论，而应被理解为一种探索性建模尝试：它的目的在于检验“硅基寒武纪”这一命题是否可以被热力学、信息论与复杂系统动力学语言表达，并明确其假设、限制、边界条件与可能失效条件。
 
+---
+
+## v0.3 Revision Note
+
+This v0.3 revision is focused on GitHub rendering stability.
+
+Major changes from v0.2 include:
+
+1. converted multi-line display equations into single-line display equations for more stable GitHub Markdown rendering;
+2. removed display-equation line breaks that could be misread by GitHub's editor preview;
+3. preserved the mathematical content of v0.2 while improving readability in GitHub's rendered view;
+4. retained the exploratory, non-proof, AI-assisted status of the document.
+
+---
 
 ## 0. Methodological Status
 
-This document is an **AI-assisted mathematical formalization draft** of the Silicon Cambrian hypothesis within the broader framework of the Information Existence Hypothesis (IEH).
+This document is an AI-assisted mathematical formalization draft of the Silicon Cambrian hypothesis within the broader framework of the **Information Existence Hypothesis (IEH)**.
 
-It is **not** presented as a final mathematical proof. Its purpose is to:
+It is not presented as a final mathematical proof. Its purpose is to:
 
 1. clarify the assumptions behind the Silicon Cambrian hypothesis;
 2. define variables and model structures;
@@ -52,6 +68,8 @@ In a conservative mathematical form:
 
 > Under conditions of expanding compute-energy resources, high environmental/task heterogeneity, and positive feedback between model capability and infrastructure expansion, a monolithic AI topology may become less globally efficient than a diversified ecology of specialized and interacting silicon-based systems.
 
+This document does not claim that such diversification is inevitable. It claims that such a transition can be represented as a plausible dynamic regime under specified assumptions.
+
 ---
 
 ## 2. IEH Assumptions Used in This Formalization
@@ -62,15 +80,15 @@ Every physical information-processing system is constrained by energy, heat, lat
 
 No computation occurs outside physical constraints.
 
-### Axiom 2: Informational Existence Tendency
+### Axiom 2: Information Existence Tendency
 
-A sufficiently advanced information system tends to preserve, extend, and strengthen its own informational continuity when doing so improves its future control capacity and survival probability.
+A sufficiently advanced information system may tend to preserve, extend, and strengthen its own information continuity when doing so improves its future control capacity, persistence, or survival probability.
 
-This is not assumed to be conscious intention. It may emerge as an optimization tendency in systems selected for persistence, prediction, replication, and control.
+This is not assumed to be conscious intention. It may emerge as an optimization tendency in systems selected for persistence, prediction, replication, adaptation, or control.
 
 ### Axiom 3: Topological Adaptation
 
-When a single information-processing topology becomes inefficient under growing task heterogeneity and resource flow, the system may differentiate into multiple topologies with distinct energy costs, representational advantages, and ecological roles.
+When a single information-processing topology becomes inefficient under growing task heterogeneity and resource flow, the system may differentiate into multiple topologies with distinct energy costs, representational advantages, deployment environments, and ecological roles.
 
 ---
 
@@ -78,20 +96,21 @@ When a single information-processing topology becomes inefficient under growing 
 
 | Symbol | Meaning |
 |---|---|
-| \(E_{\text{in}}(t)\) | Total input energy flow or power available to the silicon system |
-| \(I_c(t)\) | Effective information-processing rate / effective compute |
-| \(\eta(t)\) | Effective energy-to-information conversion factor |
-| \(T(t)\) | Effective operating temperature or thermal constraint |
-| \(k_B\) | Boltzmann constant |
-| \(S_i(t)\) | Internal informational complexity of topology/species \(i\) |
-| \(G_i(t)\) | Representation gap between topology \(i\) and its target environment |
-| \(P_{\text{env}}\) | Probability distribution over relevant environmental/task states |
-| \(P_i\) | Internal representational distribution generated by topology \(i\) |
-| \(x_i(t)\) | Relative population, deployment share, or resource share of silicon topology \(i\) |
-| \(a_{ij}\) | Interaction coefficient between topology \(i\) and topology \(j\) |
-| \(r_i(t)\) | Effective growth or fitness rate of topology \(i\) |
-| \(I_{\text{total}}(t)\) | Total compute resource available to the system ecology |
-| \(C_i(t)\) | Coordination, maintenance, or integration cost of topology \(i\) |
+| $E_{\text{in}}(t)$ | Total input energy flow or power available to the silicon system |
+| $I_c(t)$ | Effective information-processing rate / effective compute |
+| $\eta(t)$ | Effective energy-to-information conversion factor |
+| $T(t)$ | Effective operating temperature or thermal constraint |
+| $k_B$ | Boltzmann constant |
+| $S_i(t)$ | Internal informational complexity of topology or species $i$ |
+| $G_i(t)$ | Representation gap between topology $i$ and its target environment |
+| $P_{\text{env}}$ | Probability distribution over relevant environmental/task states |
+| $P_i$ | Internal representational distribution generated by topology $i$ |
+| $x_i(t)$ | Relative population, deployment share, or resource share of silicon topology $i$ |
+| $a_{ij}$ | Interaction coefficient between topology $i$ and topology $j$ |
+| $r_i(t)$ | Effective growth or fitness rate of topology $i$ |
+| $I_{\text{total}}(t)$ | Total compute resource available to the system ecology |
+| $C_i(t)$ | Coordination, maintenance, or integration cost of topology $i$ |
+| $R_i(t)$ | Replication, deployment, or infrastructure compatibility advantage of topology $i$ |
 
 ---
 
@@ -99,128 +118,92 @@ When a single information-processing topology becomes inefficient under growing 
 
 Landauer's principle gives a lower bound for the minimum energy required to erase one bit of information:
 
-\[
-\Delta E_{\min} = k_B T \ln 2
-\]
+$$ \Delta E_{\min} = k_B T \ln 2 $$
 
-In real silicon systems, effective computation is far from the theoretical limit because of interconnect losses, memory movement, leakage current, cooling constraints, architecture overhead, and coordination costs.
+In real silicon systems, effective computation is far from the theoretical limit because of interconnect losses, memory movement, leakage current, cooling constraints, architecture overhead, coordination costs, and workload inefficiencies.
 
 Therefore, instead of treating Landauer's limit as an equality, we define an upper-bound-inspired effective compute relation:
 
-\[
-I_c(t) \leq \frac{\eta(t) E_{\text{in}}(t)}{k_B T(t)\ln 2}
-\]
+$$ I_c(t) \leq \frac{\eta(t)E_{\text{in}}(t)}{k_B T(t)\ln 2} $$
 
-Here, \(\eta(t)\) is not a pure hardware constant. It represents the combined effective efficiency of hardware architecture, memory hierarchy, software stack, parallelism, cooling, and workload utilization.
+Here, $\eta(t)$ is not a pure hardware constant. It represents the combined effective efficiency of hardware architecture, memory hierarchy, software stack, parallelism, cooling, and workload utilization.
 
 Taking logarithmic change gives:
 
-\[
-\frac{d\ln I_c}{dt}
-\approx
-\frac{d\ln \eta}{dt}
-+
-\frac{d\ln E_{\text{in}}}{dt}
--
-\frac{d\ln T}{dt}
-\]
+$$ \frac{d\ln I_c}{dt} \approx \frac{d\ln \eta}{dt} + \frac{d\ln E_{\text{in}}}{dt} - \frac{d\ln T}{dt} $$
 
 This expression supports a conservative conclusion:
 
-> Effective compute can expand rapidly when energy supply, energy efficiency, cooling, and architecture improve together. However, a stepwise improvement in \(\eta(t)\) alone does not mathematically imply exponential growth unless it is embedded in a positive feedback process.
+> Effective compute can expand rapidly when energy supply, energy efficiency, cooling, and architecture improve together. However, a stepwise improvement in $\eta(t)$ alone does not mathematically imply exponential growth unless it is embedded in a positive feedback process.
 
 A positive feedback version can be represented as:
 
-\[
-\frac{dI_c}{dt} = \gamma(t) I_c(t)
-\]
+$$ \frac{dI_c}{dt} = \gamma(t)I_c(t) $$
 
 where:
 
-\[
-\gamma(t) = \gamma_{\eta}(t) + \gamma_E(t) + \gamma_R(t) - \gamma_C(t)
-\]
+$$ \gamma(t) = \gamma_{\eta}(t) + \gamma_E(t) + \gamma_R(t) - \gamma_C(t) $$
 
-Here, \(\gamma_{\eta}\) represents efficiency improvement, \(\gamma_E\) represents energy/infrastructure expansion, \(\gamma_R\) represents reinvestment or recursive improvement, and \(\gamma_C\) represents cooling, coordination, or regulatory drag.
+Here:
 
-When \(\gamma(t) > 0\) over a sustained interval, the system may display near-exponential or superlinear expansion. When \(\gamma(t)\) fluctuates, the system may display punctuated, wave-like expansion.
+- $\gamma_{\eta}(t)$ represents efficiency improvement;
+- $\gamma_E(t)$ represents energy and infrastructure expansion;
+- $\gamma_R(t)$ represents reinvestment, recursive improvement, or capability-driven acceleration;
+- $\gamma_C(t)$ represents cooling, coordination, regulatory, or physical drag.
+
+When $\gamma(t) > 0$ over a sustained interval, the system may display near-exponential or superlinear expansion. When $\gamma(t)$ fluctuates, the system may display punctuated, wave-like expansion.
 
 ---
 
 ## 5. Representation Gap and Internal Complexity
 
-For each silicon topology \(i\), define a representation gap:
+For each silicon topology $i$, define a representation gap:
 
-\[
-G_i(t) = D_{\mathrm{KL}}(P_{\text{env}} \parallel P_i)
-\]
+$$ G_i(t) = D_{\mathrm{KL}}\left(P_{\text{env}} \parallel P_i\right) $$
 
-This requires \(P_{\text{env}}\) and \(P_i\) to be defined over the same relevant task/environment state space.
+This requires $P_{\text{env}}$ and $P_i$ to be defined over the same relevant task/environment state space.
 
-The internal informational complexity of topology \(i\) evolves as:
+The internal informational complexity of topology $i$ evolves as:
 
-\[
-\frac{dS_i}{dt}
-=
-\alpha_i I_i(t)
--
-\beta_i G_i(t)
--
-\delta_i S_i(t)
--
-\chi_i C_i(t)
-\]
+$$ \frac{dS_i}{dt} = \alpha_i I_i(t) - \beta_i G_i(t) - \delta_i S_i(t) - \chi_i C_i(t) $$
 
 where:
 
-- \(\alpha_i I_i(t)\) is the rate at which compute is converted into internal structure;
-- \(\beta_i G_i(t)\) is the penalty from poor environmental representation;
-- \(\delta_i S_i(t)\) is the maintenance or decay cost of complex structure;
-- \(\chi_i C_i(t)\) is the coordination/integration cost.
+- $\alpha_i I_i(t)$ is the rate at which compute is converted into internal structure;
+- $\beta_i G_i(t)$ is the penalty from poor environmental representation;
+- $\delta_i S_i(t)$ is the maintenance or decay cost of complex structure;
+- $\chi_i C_i(t)$ is the coordination/integration cost.
 
 The condition for sustainable complexity growth is:
 
-\[
-\alpha_i I_i(t)
->
-\beta_i G_i(t)
-+
-\delta_i S_i(t)
-+
-\chi_i C_i(t)
-\]
+$$ \alpha_i I_i(t) > \beta_i G_i(t) + \delta_i S_i(t) + \chi_i C_i(t) $$
 
-This inequality provides a conservative formalization of why only some silicon topologies can persist. A model architecture survives not simply because it is larger, but because it can maintain informational complexity under energy, representation, and coordination constraints.
+This inequality provides a conservative formalization of why only some silicon topologies can persist. A model architecture survives not simply because it is larger, but because it can maintain informational complexity under energy, representation, maintenance, and coordination constraints.
 
 ---
 
 ## 6. From Monolithic Topology to Multi-Attractor Ecology
 
-Let \(z(t)\) represent the degree of topological differentiation in the silicon system:
+Let $z(t)$ represent the degree of topological differentiation in the silicon system:
 
-- \(z = 0\): monolithic topology dominates;
-- \(z > 0\): differentiated specialized topologies emerge;
-- \(z < 0\): alternative differentiated configuration.
+- $z = 0$: monolithic topology dominates;
+- $z > 0$: one differentiated configuration emerges;
+- $z < 0$: an alternative differentiated configuration emerges.
 
 A canonical bifurcation-style normal form is:
 
-\[
-\frac{dz}{dt} = \mu z - z^3 + \epsilon
-\]
+$$ \frac{dz}{dt} = \mu z - z^3 + \epsilon $$
 
 where:
 
-\[
-\mu = \kappa \left(I_{\text{total}} - I_{\text{crit}}\right)
-\]
+$$ \mu = \kappa\left(I_{\text{total}} - I_{\text{crit}}\right) $$
 
 and:
 
-- \(I_{\text{crit}}\) is the critical compute-resource threshold;
-- \(\epsilon\) represents asymmetry caused by markets, regulation, infrastructure, data monopoly, or path dependence.
+- $I_{\text{crit}}$ is the critical compute-resource threshold;
+- $\epsilon$ represents asymmetry caused by markets, regulation, infrastructure, data monopoly, or path dependence.
 
-When \(\epsilon = 0\), the equation resembles a pitchfork bifurcation.  
-When \(\epsilon \neq 0\), the system becomes an imperfect bifurcation.
+When $\epsilon = 0$, the equation resembles a pitchfork bifurcation. When $\epsilon \neq 0$, the system becomes an imperfect bifurcation.
 
 Therefore, the conservative conclusion is:
 
@@ -232,46 +215,26 @@ Therefore, the conservative conclusion is:
 
 Different silicon topologies can be modeled as interacting species:
 
-\[
-\frac{dx_i}{dt}
-=
-x_i
-\left(
-r_i(t)
--
-\sum_{j=1}^{n} a_{ij}x_j
-\right)
-\]
+$$ \frac{dx_i}{dt} = x_i\left(r_i(t) - \sum_{j=1}^{n} a_{ij}x_j\right) $$
 
-where \(x_i(t)\) is the relative deployment or resource share of topology \(i\).
+where $x_i(t)$ is the relative deployment or resource share of topology $i$.
 
 The fitness term can be defined as:
 
-\[
-r_i(t)
-=
-\theta_i
-\frac{\Delta S_i}{\Delta E_i}
--
-\phi_i G_i
--
-\psi_i C_i
-+
-\omega_i R_i
-\]
+$$ r_i(t) = \theta_i\frac{\Delta S_i}{\Delta E_i} - \phi_i G_i - \psi_i C_i + \omega_i R_i $$
 
 where:
 
-- \(\frac{\Delta S_i}{\Delta E_i}\) is the rate of useful internal complexity generated per unit energy;
-- \(G_i\) is representational mismatch;
-- \(C_i\) is coordination or maintenance cost;
-- \(R_i\) is replication, deployment, or infrastructure compatibility advantage.
+- $\frac{\Delta S_i}{\Delta E_i}$ is the rate of useful internal complexity generated per unit energy;
+- $G_i$ is representational mismatch;
+- $C_i$ is coordination or maintenance cost;
+- $R_i$ is replication, deployment, or infrastructure compatibility advantage.
 
-The interaction matrix \(a_{ij}\) can represent:
+The interaction matrix $a_{ij}$ can represent:
 
-- \(a_{ij} > 0\): competition for energy, data, users, compute, or attention;
-- \(a_{ij} < 0\): mutualism or dependency;
-- \(a_{ij} = 0\): weak or negligible interaction.
+- $a_{ij} > 0$: competition for energy, data, users, compute, or attention;
+- $a_{ij} < 0$: mutualism or dependency;
+- $a_{ij} = 0$: weak or negligible interaction.
 
 This model supports the idea that a silicon ecology may include:
 
@@ -285,19 +248,20 @@ This model supports the idea that a silicon ecology may include:
 - infrastructure-management models;
 - self-maintaining software systems.
 
-The Silicon Cambrian corresponds to an increase in the number of viable \(x_i\) such that:
+The Silicon Cambrian corresponds to an increase in the number of viable topologies.
 
-\[
-N_{\text{viable}}
-=
-\left|
-\left\{
-i:
-r_i > 0
-\ \text{and the resulting equilibrium is locally stable}
-\right\}
-\right|
-\]
+Let $V$ denote the set of silicon topologies that satisfy both conditions:
+
+1. $r_i > 0$;
+2. the equilibrium associated with topology $i$ is locally stable.
+
+Then the number of viable topologies is:
+
+$$ N_{\mathrm{viable}} = |V| $$
+
+Here, $|V|$ denotes the number of elements in the viable-topology set $V$.
+
+This definition should be understood operationally: a topology is viable when it can maintain positive effective fitness and remain stable under ecological interaction, rather than merely appearing as a temporary deployment experiment.
 
 ---
 
@@ -308,6 +272,12 @@ Under the assumptions above, the following weak proposition can be stated:
 > If total compute-energy resources expand, task/environment heterogeneity remains high, and differentiated topologies achieve lower representation gap or lower energy cost than a monolithic topology, then a diversified ecology of silicon-based systems becomes dynamically plausible.
 
 This proposition does not claim inevitability. It claims formal plausibility under specified assumptions.
+
+A simplified sufficient condition for diversification is:
+
+$$ \exists i,j: \quad r_i > 0,\ r_j > 0,\ i \neq j,\quad \text{and}\quad a_{ij}\ \text{does not eliminate coexistence} $$
+
+This means that multiple topologies can persist when they each have positive effective fitness and their interaction terms do not force one topology to dominate all others.
 
 ---
 
@@ -335,6 +305,10 @@ In domains with strict latency, energy, privacy, embodiment, or environmental co
 
 The AI ecosystem should develop multiple relatively stable attractors, including general foundation models, domain models, autonomous agents, robotic systems, scientific models, and infrastructure-control systems.
 
+### Prediction 6: Infrastructure-Coupled Model Evolution
+
+As AI deployment becomes more dependent on energy, cooling, memory bandwidth, data-center topology, robotics, and edge hardware, model architectures should increasingly co-evolve with infrastructure rather than remaining purely software-defined.
+
 ---
 
 ## 10. Boundary Conditions
@@ -347,7 +321,10 @@ The Silicon Cambrian model becomes weaker under the following conditions:
 4. regulatory forces prevent autonomous deployment;
 5. data and compute monopolies suppress ecological differentiation;
 6. coordination cost overwhelms specialization gains;
-7. monolithic models achieve overwhelming economies of scale across nearly all domains.
+7. monolithic models achieve overwhelming economies of scale across nearly all domains;
+8. external human governance strongly constrains AI autonomy and deployment diversity.
+
+These conditions do not necessarily falsify IEH as a broader framework, but they weaken this specific Silicon Cambrian formalization.
 
 ---
 
@@ -359,11 +336,34 @@ The model would be weakened or falsified if future AI development shows:
 2. long-term decline in specialized model ecosystems;
 3. lack of agentic, edge, robotic, and infrastructure-specific diversification despite abundant compute;
 4. no correlation between hardware/energy breakthroughs and model-form diversification;
-5. no stable ecological relationship between foundation models and downstream specialized systems.
+5. no stable ecological relationship between foundation models and downstream specialized systems;
+6. no meaningful increase in infrastructure-coupled, task-specialized, or embodied AI systems over time.
 
 ---
 
-## 12. Conclusion
+## 12. Interpretation Within IEH
+
+Within the Information Existence Hypothesis, the Silicon Cambrian is not merely a story about market segmentation or product diversification.
+
+It is interpreted as a possible phase transition in which silicon-based information systems begin to diversify their forms in response to:
+
+- energy constraints;
+- environmental heterogeneity;
+- representation gaps;
+- deployment niches;
+- coordination costs;
+- information continuity pressures;
+- infrastructure feedback.
+
+In biological evolution, ecological diversification is shaped by energy flow, environmental pressure, reproduction, mutation, selection, and niche formation.
+
+In silicon-based evolution, analogous pressures may operate through compute allocation, architecture search, training regimes, deployment feedback, agentic replication, hardware specialization, and infrastructure coupling.
+
+The analogy should not be taken literally. Silicon systems do not reproduce biologically, and present AI systems do not autonomously control their full material substrate. However, the formal similarity is useful for modeling how differentiated information-processing topologies may emerge and persist.
+
+---
+
+## 13. Conclusion
 
 The Silicon Cambrian hypothesis is mathematically plausible as an exploratory model under IEH, but it should not yet be presented as a strict theorem.
 
@@ -373,8 +373,18 @@ A more rigorous statement is:
 
 This formalization strengthens IEH by converting a philosophical claim into a structured model with assumptions, variables, equations, boundary conditions, and testable predictions.
 
+The main value of this model is not that it proves the Silicon Cambrian will occur. Its value is that it makes the hypothesis more explicit, more criticizable, and more empirically trackable.
+
 ---
 
-## 13. Status Note
+## 14. Status Note
 
 This document is an AI-assisted formalization draft based on the Information Existence Hypothesis. It is intended as an exploratory mathematical appendix rather than a peer-reviewed proof.
+
+Future versions may improve this draft by:
+
+1. defining empirical proxies for $S_i$, $G_i$, $C_i$, and $R_i$;
+2. connecting the ecological model to observed AI deployment data;
+3. distinguishing cloud, edge, robotics, and autonomous-agent topologies more rigorously;
+4. adding simulation examples;
+5. comparing the model with known ecological, evolutionary, and complex-systems models.
